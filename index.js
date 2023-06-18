@@ -3,7 +3,7 @@ const app = express();
 
 const strings = ['string1', 'string2', 'string3', 'string4']; // Replace with your list of strings
 
-app.get('/random-string', (req, res) => {
+app.get('/mars-api', (req, res) => {
   const randomIndex = Math.floor(Math.random() * strings.length);
   const randomString = strings[randomIndex];
   res.json({ string: randomString });
