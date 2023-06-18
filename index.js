@@ -6,7 +6,8 @@ const strings = ['It\'s getting dark...', 'My day was productive...', 'I\'m happ
 app.get('/mars-api', (req, res) => {
   const randomIndex = Math.floor(Math.random() * strings.length);
   const randomString = strings[randomIndex];
-  res.json({ string: randomString });
+  res.setHeader('Content-Type', 'application/json');
+  res.send(JSON.stringify({ string: randomString }));
 });
 
 const port = process.env.PORT || 3000;
