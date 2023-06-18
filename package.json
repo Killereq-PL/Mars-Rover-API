@@ -8,8 +8,5 @@
   },
   "keywords": [],
   "author": "Killereq_PL",
-  "license": "MIT",
-  "dependencies": {
-    "express": "^4.18.2"
-  }
+  "license": "MIT"
 }
