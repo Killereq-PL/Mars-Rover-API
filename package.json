@@ -2,9 +2,9 @@
   "name": "marsroverapi",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "index.js"
+    "test": "app.js"
   },
   "keywords": [],
   "author": "Killereq_PL",

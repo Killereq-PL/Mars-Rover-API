@@ -1,13 +1,6 @@
 # Mars-Rover-API
 An API that generates random Mars Rover quotes in the form of JSON
 
-## API Endpoint
-The API endpoint for generating a Mars Rover quote is:
-
-```
-/mars-api
-```
-
 # Example Usage
 You can use any programming language or HTTP client library to make requests to the Mars Rover API. Here are a few examples using popular programming languages:
 
