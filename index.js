@@ -1,7 +1,7 @@
 const express = require('express');
 const app = express();
 
-const strings = ['string1', 'string2', 'string3', 'string4']; // Replace with your list of strings
+const strings = ['It\'s getting dark...', 'My day was productive...', 'I\'m happy to be helping science...', 'It\'s very lonely here', 'I hope this day isn\'t my last...']; // Replace with your list of strings
 
 app.get('/mars-api', (req, res) => {
   const randomIndex = Math.floor(Math.random() * strings.length);
